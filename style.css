@@ -1,0 +1,85 @@
+body {
+  margin: 0 auto;
+  background-color: #fcbf1e;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://i0.wp.com/germanyiswunderbar.com/wp-content/uploads/Leipzig-Panorama-%C2%AE-Michael-Bader.jpg?fit=1280%2C1024&ssl=1");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo img {
+  opacity: 90%;
+  height: 40vh;
+  width: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "RocknRoll One", sans-serif;
+  line-height: 2.25rem;
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+
+  border-radius: 10px;
+  margin-top: 0.2rem;
+}
+
+.location .iconify {
+  font-size: 28px;
+  margin-right: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: purple;
+  font-size: 28px;
+  line-height: 0rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right img {
+  width: 100%;
+}
+.bottom {
+  display: flex;
+  margin: 4rem;
+}
