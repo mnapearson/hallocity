@@ -1,11 +1,18 @@
 body {
   margin: 0 auto;
   background-color: #fcbf1e;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 100vw;
+  height: 50vh;
 }
 
 section {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
 }
 
 .hero {
