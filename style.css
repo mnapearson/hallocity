@@ -18,9 +18,14 @@ body {
   width: auto;
 }
 
+.main {
+  margin-bottom: 3rem;
+}
+
 .top {
   display: flex;
-  margin: 1rem 1rem 1rem;
+  justify-content: space-evenly;
+  margin: 1rem 1rem 0 1rem;
 }
 
 .top-left {
@@ -91,12 +96,27 @@ h1 {
   align-items: center;
 }
 
-.form input {
+.email,
+.name {
   width: 100%;
   margin: 0.5rem;
   padding: 0.5rem;
   border-radius: 10px;
   font-family: "Source Sans Pro", sans-serif;
+  border: #120136 2px solid;
+}
+.submit {
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-family: "RocknRoll One", sans-serif;
+  background-color: #120136;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #40bad5;
 }
 
 .top-right {
@@ -118,7 +138,7 @@ h1 {
   padding: 1rem;
   border-radius: 10px;
   border: #120136 3px solid;
-  width: 80%;
+  width: 75%;
   text-align: center;
 }
 
@@ -170,7 +190,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 2rem;
+  margin: 1rem 2rem;
   background-color: #120136;
   border-radius: 100px;
   border: white solid 3px;
