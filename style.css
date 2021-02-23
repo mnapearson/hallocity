@@ -74,6 +74,7 @@ h1 {
 
 .form {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   margin-top: 2rem;
   border-radius: 10px;
@@ -90,22 +91,23 @@ h1 {
   margin: 0;
 }
 
-.form .capture {
+.capture {
   display: flex;
-  padding: 2rem 1rem 2rem;
+  margin-left: 2rem;
+  padding: 2rem 0;
   align-items: center;
 }
 
-.email,
-.name {
-  width: 100%;
-  margin: 0.5rem;
+.email {
+  width: 200px;
   padding: 0.5rem;
   border-radius: 10px;
   font-family: "Source Sans Pro", sans-serif;
   border: #120136 2px solid;
+  margin-bottom: 1rem;
 }
-.submit {
+
+.button {
   padding: 0.5rem;
   border-radius: 10px;
   font-family: "RocknRoll One", sans-serif;
