@@ -6,10 +6,9 @@ var x = setInterval(function () {
   var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((t % (1000 * 60)) / 1000);
-  document.getElementById("countdown").innerHTML =
-    days + ": " + hours + ": " + minutes + ": " + seconds + "s ";
+  document.getElementById("countdown").innerHTML = days + " days! 🥳";
   if (t < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "NEW RELEASE!";
+    document.getElementById("countdown").innerHTML = "🎉 WE'RE LIVE !";
   }
 }, 1000);
