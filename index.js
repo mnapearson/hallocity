@@ -15,3 +15,7 @@ var x = setInterval(function () {
     document.getElementById("countdown").innerHTML = "🎉 WE'RE LIVE !";
   }
 }, 1000);
+
+document.getElementById("my_button").onclick = function () {
+  document.getElementById("mce-EMAIL").focus();
+};
