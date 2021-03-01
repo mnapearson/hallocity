@@ -1,7 +1,7 @@
-* {
+body {
   margin: 0;
-  color: white;
   font-family: "GT Walsheim Pro Medium";
+  color: white;
 }
 
 header h3 {
@@ -28,14 +28,14 @@ header h2 {
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
-  color: black;
+  color: #120136;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "GT Walsheim Pro Medium";
 }
 
 .btn-grad:hover {
   background-position: right center; /* change the direction of the change here */
-  color: #fff;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ header {
 .top-left {
   display: flex;
   flex-direction: column;
-  margin-left: 4rem;
+  margin-left: 5rem;
   width: 50vw;
 }
 
@@ -84,7 +84,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-top: 5rem;
+  margin-top: 3rem;
   line-height: 1.5rem;
 }
 
@@ -94,5 +94,30 @@ header {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   background-color: #fdbf1e;
+  padding: 2rem 5rem 1rem;
+  color: #120136;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left h3 {
+  margin-right: 1rem;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-right h3 {
+  margin-left: 3rem;
+}
+
+a {
+  margin-left: 1rem;
 }
