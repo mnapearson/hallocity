@@ -4,13 +4,13 @@
   font-family: "GT Walsheim Pro Medium";
 }
 
-h3 {
+header h3 {
   font-size: 12px;
   line-height: 1.13;
   letter-spacing: 0.32px;
 }
 
-h2 {
+header h2 {
   font-size: 32px;
   letter-spacing: 0.8px;
 }
@@ -24,12 +24,11 @@ h2 {
   );
 }
 .btn-grad {
-  padding: 10px 35px;
+  padding: 10px 45px;
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
   color: black;
-  box-shadow: 0 0 20px #eee;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -72,4 +71,28 @@ header {
   width: 50vw;
   background-image: url("https://i0.wp.com/germanyiswunderbar.com/wp-content/uploads/Leipzig-Panorama-%C2%AE-Michael-Bader.jpg?fit=1280%2C1024&ssl=1");
   background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #130137;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 5rem;
+  line-height: 1.5rem;
+}
+
+.mailchimp {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+footer {
+  background-color: #fdbf1e;
 }
