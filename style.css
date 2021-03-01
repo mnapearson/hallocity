@@ -125,17 +125,14 @@ header {
 
 section {
   background-color: #120136;
-  display: flex;
-  justify-content: center;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-left: 25%;
+  width: 50%;
   background-color: #130137;
-  width: 60%;
-  margin-left: 20%;
 }
 
 .main-text {
@@ -143,22 +140,16 @@ section {
   flex-direction: column;
   margin-top: 3rem;
   line-height: 1.5rem;
-  width: 60%;
-  margin-left: 1rem;
-}
-
-.mailchimp {
-  margin-top: 2rem;
 }
 
 .content__gdprLegal p {
   font-size: 10px;
-  width: 70%;
   font-style: italic;
 }
 
 .content__gdprLegal a {
   color: #fdbf1e;
+  margin: 0;
 }
 
 footer {
@@ -188,4 +179,26 @@ footer {
 
 a {
   margin-left: 1rem;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.number {
+  width: 30px;
+  height: 30px;
+  padding: 18px 18px 18px 18px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  text-align: center;
 }
