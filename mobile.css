@@ -1,35 +1,36 @@
-@media screen and (max-width: 600px) {
-  .hero {
-    display: flex;
-    height: 100%;
-    justify-content: center;
-  }
-
-  .top {
-    flex-direction: column;
-    margin-top: 2rem;
+@media screen and (max-width: 650px) {
+  body {
+    background-color: #120136;
   }
 
   .top-left {
-    width: 100%;
-    margin: 0;
+    margin-left: 1rem;
   }
 
   .top-right {
-    width: 100%;
-    margin: 2rem 0 0;
+    margin-left: 1rem;
   }
 
-  .bottom {
+  .main {
     width: 80%;
-  }
-
-  .bottom h1 {
-    font-size: 22px;
-    padding: 0 1rem;
+    margin: 1rem;
   }
 
   .countdown {
-    font-size: 22px;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    margin: 0;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    margin: 0;
   }
 }
