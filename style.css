@@ -1,3 +1,20 @@
+@import url(//db.onlinewebfonts.com/c/d4f20dfedfdf197ed0ac52b09bf25551?family=GT+Walsheim+Pro+Medium);
+
+@font-face {
+  font-family: "GT Walsheim Pro Medium";
+  src: url("//db.onlinewebfonts.com/t/d4f20dfedfdf197ed0ac52b09bf25551.eot");
+  src: url("//db.onlinewebfonts.com/t/d4f20dfedfdf197ed0ac52b09bf25551.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d4f20dfedfdf197ed0ac52b09bf25551.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/d4f20dfedfdf197ed0ac52b09bf25551.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/d4f20dfedfdf197ed0ac52b09bf25551.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/d4f20dfedfdf197ed0ac52b09bf25551.svg#GT Walsheim Pro Medium")
+      format("svg");
+}
+
 body {
   margin: 0;
   font-family: "GT Walsheim Pro Medium";
