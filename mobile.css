@@ -3,34 +3,40 @@
     background-color: #120136;
   }
 
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .top-left {
-    margin-left: 1rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
   }
 
   .top-right {
-    margin-left: 1rem;
+    width: 100%;
+  }
+
+  .middle {
+    flex-direction: column;
   }
 
   .main {
     width: 80%;
-    margin: 1rem;
   }
 
   .countdown {
-    margin-top: 2rem;
-    width: 100%;
+    margin: 2rem;
+    width: 80%;
   }
 
   footer {
-    width: 100%;
-    justify-content: space-evenly;
-    padding-left: 1rem;
-    padding-right: 0rem;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
-  }
-
-  .footer-right {
-    flex-direction: column;
-    margin: 0;
+    padding: 0.5;
   }
 }
