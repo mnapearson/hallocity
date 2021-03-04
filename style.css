@@ -163,6 +163,10 @@ section {
   justify-content: flex-end;
 }
 
+.speech-bubble-hidden {
+  display: none;
+}
+
 .speech-bubble {
   margin-bottom: -7rem;
   margin-left: 2rem;
@@ -237,7 +241,8 @@ a {
 .countdown {
   display: flex;
   justify-content: space-between;
-  margin: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .number {

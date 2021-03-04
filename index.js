@@ -16,6 +16,13 @@ var x = setInterval(function () {
   }
 }, 1000);
 
+var speechBubble = document.getElementById("speech-bubble");
+var speechBubbleTwo = document.getElementById("speech-bubble-two");
+
 document.getElementById("my_button").onclick = function () {
   document.getElementById("mce-EMAIL").focus();
+  speechBubble.classList.add("speech-bubble");
+  speechBubble.classList.remove("speech-bubble-hidden");
+  speechBubbleTwo.classList.add("speech-bubble");
+  speechBubbleTwo.classList.remove("speech-bubble-hidden");
 };
