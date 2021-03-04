@@ -59,7 +59,7 @@ header h2 {
 
 header {
   display: flex;
-  background: #42bad5;
+  background: #40bad5;
 }
 
 .top-left {
@@ -68,6 +68,7 @@ header {
   margin-left: 5rem;
   padding-bottom: 4rem;
   width: 50%;
+  z-index: 1;
 }
 
 .top-left h3 {
@@ -89,10 +90,7 @@ header {
 }
 
 .top-right img {
-  height: 450px;
-  width: 450px;
-  z-index: 2;
-  position: relative;
+  width: 900px;
 }
 
 #mc-embedded-subscribe-form input[type="checkbox"] {
