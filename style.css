@@ -66,8 +66,8 @@ header {
   display: flex;
   flex-direction: column;
   margin-left: 7rem;
-  padding-bottom: 4rem;
-  width: 50%;
+  width: 100%;
+  padding-bottom: 3rem;
   z-index: 1;
 }
 
@@ -90,7 +90,7 @@ header {
 }
 
 .top-right img {
-  width: 900px;
+  width: 80vw;
 }
 
 #mc-embedded-subscribe-form input[type="checkbox"] {
@@ -187,8 +187,9 @@ section {
 .main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-color: #130137;
-  max-width: 40%;
+  max-width: 30%;
 }
 
 .main-text {
