@@ -9,6 +9,12 @@
     align-items: center;
   }
 
+  .text {
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+
   .top-left {
     margin: 0;
     padding: 0;
@@ -23,7 +29,10 @@
   }
 
   .top-right img {
-    width: 900px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 600px;
   }
 
   .middle {
