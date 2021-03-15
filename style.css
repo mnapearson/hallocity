@@ -187,7 +187,7 @@ section {
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   background-color: #130137;
   max-width: 30%;
 }
