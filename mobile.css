@@ -34,45 +34,27 @@
   }
 
   .middle {
-    flex-direction: column;
-  }
-
-  .main {
-    padding: 0 2rem;
-    max-width: 100%;
-  }
-
-  .main-text {
-    margin: 0;
-    padding: 0;
-  }
-
-  .maricruz,
-  .vale {
-    margin: 0;
-    padding: 0;
-  }
-
-  .countdown {
-    margin-bottom: 0;
-    padding-bottom: 0;
+    display: none;
   }
 
   footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem 2rem;
     margin: 0;
   }
 
   .footer-right {
     margin: 0;
     padding: 0;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .footer-right h3 {
     margin: 0;
     padding: 0;
+    font-size: 14px;
   }
 }
