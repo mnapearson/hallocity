@@ -1,25 +1,23 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   body {
     background-color: #120136;
   }
 
   header {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .text {
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
   }
 
   .top-left {
-    margin: 0;
+    margin-left: 2rem;
     padding: 0;
-    width: 100%;
-    align-items: center;
+  }
+
+  .top-left h2 {
+    font-size: 24px;
+  }
+
+  header .btn-grad {
+    font-size: 14px;
   }
 
   .top-right {
