@@ -33,23 +33,21 @@
     width: 600px;
   }
 
-  .middle {
+  .mari,
+  .vale {
     display: none;
   }
 
-  .mobile-middle {
-    display: flex;
-    flex-direction: column;
-  }
-
   .main {
-    max-width: 100%;
+    max-width: 90%;
     padding: 1rem;
     margin: 0;
   }
 
   .ladies {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
   }
