@@ -161,6 +161,10 @@ section {
   align-items: center;
 }
 
+.mobile-middle {
+  display: none;
+}
+
 .mari {
   display: flex;
   flex-direction: column;

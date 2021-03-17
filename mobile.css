@@ -37,12 +37,28 @@
     display: none;
   }
 
+  .mobile-middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    max-width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .ladies {
+    display: flex;
+  }
+
   footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
     margin: 0;
+    width: 100%;
   }
 
   .footer-right {
