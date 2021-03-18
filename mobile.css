@@ -8,8 +8,8 @@
   }
 
   .top-left {
-    margin-left: 2rem;
-    padding: 0;
+    margin: 0;
+    padding: 0 1rem;
   }
 
   .top-left h2 {
@@ -42,6 +42,21 @@
     max-width: 90%;
     padding: 1rem;
     margin: 0;
+  }
+
+  .bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bubble img {
+    height: 200px;
+    margin-bottom: -4rem;
+  }
+
+  .vale-mobile-bubble {
+    margin-left: -5rem;
   }
 
   .ladies {
