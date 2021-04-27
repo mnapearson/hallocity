@@ -89,13 +89,13 @@ header {
 
 .top-right {
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
   min-width: 50%;
 }
 
 .top-right img {
-  width: 90vw;
+  width: 100%;
 }
 
 #mc-embedded-subscribe-form input[type="checkbox"] {
